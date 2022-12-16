@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#All info of scans and other details acquired by this script shall be saved on ~/Desktop
-
-#This function shall install all required tools for script execution and automated functions
+#this function shall install all required tools for script execution and automated functions
 
 function Setup(){
 	sudo apt update
@@ -19,7 +17,7 @@ function Setup(){
 Setup
 echo
 
-#This function anonimizes the local host and check wether the connection has become anonymous
+#This function anonimizes the local host and checks whether the connection has become anonymous
 
 function Anonimity(){
 	cd nipe && sudo perl nipe.pl start && sudo perl nipe.pl restart
