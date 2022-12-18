@@ -5,11 +5,11 @@
 function Setup(){
 	cd ~/Desktop
 	sudo apt update
-	sudo apt-get install geoip-bin
-	sudo apt-get install nmap
-	sudo apt-get install sshpass
-	sudo apt-get install whois
-	sudo apt-get install moreutils
+	sudo apt-get -y install geoip-bin
+	sudo apt-get -y install nmap
+	sudo apt-get -y install sshpass
+	sudo apt-get -y install whois
+	sudo apt-get -y install moreutils
 	if [ -d nipe ]
 	then echo "Nipe Exists"
 	else git clone https://github.com/htrgouvea/nipe && cd nipe && sudo cpan install Try::Tiny Config::Simple JSON && sudo perl nipe.pl install 
