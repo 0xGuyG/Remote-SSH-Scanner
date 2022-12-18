@@ -1,2 +1,3 @@
 # Remote-SSH-Scanner
-![image](https://user-images.githubusercontent.com/103994128/208308080-ea5caf36-938c-4c65-8c4c-711686346d26.png)
+<img width="652" alt="image" src="https://user-images.githubusercontent.com/103994128/208308126-fad3d45b-901c-4900-b07c-a39b9d5fc356.png">
+
