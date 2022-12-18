@@ -122,7 +122,7 @@ function LocalDetails(){
 LocalDetails
 echo 
 
-echo "The info gathered by this script is located on your desktop and now shall be displayed:"
+echo "The info gathered by this script is located on your desktop and the report shall be displayed now:"
 function Report(){
 	cd ~/Desktop
 	echo "Local Host Details(Date, int.IP, ext.IP):" > Report.txt
