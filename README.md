@@ -1,3 +1,3 @@
 # Remote-SSH-Scanner
-<img width="652" alt="image" src="https://user-images.githubusercontent.com/103994128/208308126-fad3d45b-901c-4900-b07c-a39b9d5fc356.png">
+This script gathers a few general details, makes your connection anonymous, scans the requested remote host via nmap and whois, connects to it via ssh and then preforms nmap and whois scans on a target ip. sort of an anonymous proxy.
 
