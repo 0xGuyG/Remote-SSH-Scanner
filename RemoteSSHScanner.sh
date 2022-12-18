@@ -3,6 +3,7 @@
 #this function shall install all required tools for script execution and automated functions
 
 function Setup(){
+	cd ~/Desktop
 	sudo apt update
 	sudo apt-get install geoip-bin
 	sudo apt-get install nmap
@@ -20,7 +21,7 @@ echo
 #This function anonimizes the local host and checks whether the connection has become anonymous
 
 function Anonimity(){
-	cd nipe && sudo perl nipe.pl start && sudo perl nipe.pl restart
+	cd ~/Desktop && cd nipe && sudo perl nipe.pl start && sudo perl nipe.pl restart
 	EIP=$(curl -s ifconfig.io)
 	if [ -z $(geoiplookup $EIP | grep IL) ]
 	then echo "Anonymous" 
