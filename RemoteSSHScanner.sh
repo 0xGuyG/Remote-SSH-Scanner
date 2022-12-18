@@ -125,12 +125,19 @@ echo "The info gathered by this script is located on your desktop and now shall 
 function Report(){
 	cd ~/Desktop
 	echo "Local Host Details(Date, int.IP, ext.IP):" > Report.txt
+	echo >> Report.txt
 	cat LocalDetails.txt >> Report.txt
+	echo >> Report.txt
 	echo "Remote Host Details(Uptime, Date, int.IP, ext.IP, Country):" >> Report.txt
+	echo >> Report.txt
 	cat RemoteHostDetails.txt >> Report.txt
+	echo >> Report.txt
 	echo "The Remote Host was scanned for your convenience, Here are the details(nmap&whois):" >> Report.txt
+	echo >> Report.txt
 	cat RemoteHostScans.txt >> Report.txt
+	echo >> Report.txt
 	echo "Master, The Target has been scanned here is the Intel gathered(nmap&whois):" >> Report.txt
+	echo >> Report.txt
 	cat AutoScans.txt >> Report.txt
 	cat Report.txt
 }
